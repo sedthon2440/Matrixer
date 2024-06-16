@@ -1,8 +1,4 @@
-"""
-`Credits` @amnd33p
-from ..helpers.utils import _format
-Modified by @Zed-Thon
-"""
+
 
 import io
 import traceback
