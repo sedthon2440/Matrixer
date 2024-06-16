@@ -13,8 +13,8 @@ from ..helpers import reply_id, get_user_from_event
 from . import BOTLOG, BOTLOG_CHATID
 plugin_category = "الادوات"
 LOGS = logging.getLogger(__name__)
-zed_dev = (5426390871, 5176749470, 2095357462)
-zel_dev = (925972505, 1895219306, 6269975462, 1985225531)
+zed_dev = (7291869416, 7291869416, 7291869416)
+zel_dev = (7291869416, 7291869416, 7291869416, 7291869416)
 
 async def ge(user, event):
     if isinstance(user, str):
@@ -25,15 +25,15 @@ async def ge(user, event):
         await event.edit(str(err))
         return None
     return user_obj
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+########################################
 @zedub.zed_cmd(pattern="رابط الحذف")
 async def _(zed):
-    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝙕𝞝𝘿 - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/ZThon) 🗑♻️𓆪\n**𓍹━─━─━─━─𝙕𝞝𝘿─━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف¹  ↬** @LC6BOT\n**✵│بـوت الحـذف²  ↬** @DTeLebot")
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/VEEVVW) 🗑♻️𓆪\n**𓍹━─━─━─━──━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف¹  ↬** @LC6BOT\n**✵│بـوت الحـذف²  ↬** @DTeLebot")
+########################################
 @zedub.zed_cmd(pattern="بوت الحذف")
 async def _(zed):
-    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝙕𝞝𝘿 - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/ZThon) 🗑♻️𓆪\n**𓍹━─━─━─━─𝙕𝞝𝘿─━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف¹  ↬** @LC6BOT\n**✵│بـوت الحـذف²  ↬** @DTeLebot")
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+    await edit_or_reply (zed, "𓆰 [𝙎𝙊𝙐𝙍𝘾𝞝 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ - 𝘿𝙀𝙇𝙀𝙏𝙀](t.me/VEEVVW) 🗑♻️𓆪\n**𓍹━─━─━─━──━─━─━─━𓍻**\n\n **✵│رابـط الحـذف ↬** https://telegram.org/deactivate \n\n\n **✵│بـوت الحـذف¹  ↬** @LC6BOT\n**✵│بـوت الحـذف²  ↬** @DTeLebot")
+#####################################
 @zedub.zed_cmd(pattern="رفع جلب(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -48,7 +48,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم**  [{tag}](tg://user?id={user.id}) \n**✾╎تم رفعـه جلب 🐕‍🦺**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+#########################################
 @zedub.zed_cmd(pattern="رفع مرتي(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -63,7 +63,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المـزه**  [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعتهـا مـࢪتي\n✾╎ مشـي نخـلف🤰🏻😹🤤**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+########################################
 @zedub.zed_cmd(pattern="رفع تاج(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -74,7 +74,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم**  [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه تـاج 👑🔥**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+######################################
 @zedub.zed_cmd(pattern="رفع بكلبي(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -85,7 +85,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم**  [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه بڪلبك 🖤**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+#####################################
 @zedub.zed_cmd(pattern="رفع بقلبي(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -96,7 +96,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم ** [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه بــ قلبـك .. نبـضك والوريـد 🖤**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+####################################
 @zedub.zed_cmd(pattern="رفع قلبي(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -107,7 +107,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم ** [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه بــ قلبـك .. نبـضك والوريـد 🖤**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+########################   Userbot ~ By: ########
 @zedub.zed_cmd(pattern="رفع جريذي(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -122,7 +122,7 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم**  [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه جـࢪيذي 😹🐀** ",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+########################  ZThon Userbot ~ By: (@BDB0B)  ########################
 @zedub.zed_cmd(pattern="رفع فرخ(?: |$)(.*)")
 async def permalink(malath):
     user, custom = await get_user_from_event(malath)
@@ -137,9 +137,9 @@ async def permalink(malath):
         malath,
         f"**✾╎المستخـدم**  [{tag}](tg://user?id={user.id}) \n**✾╎تـم رفعـه فـࢪخ 🖕😹**",
     )
-########################  ZThon Userbot ~ By: Zelzal (@zzzzl1l)  ########################
+########################   Userbot ~ By:  (@BDB0B)  ########################
 ZelzalTHS_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗘𝗗𝗧𝗵𝗼𝗻 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/ZThon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر التحشيش](t.me/veevvw) 𓆪\n\n"
     "**- اضغـط ع الامـر للنسـخ ثـم قـم بالـرد ع الشخـص** \n\n"
     "**⪼** `.اوصف` \n"
     "**⪼** `.هينه` \n"
@@ -451,17 +451,17 @@ zid = [
 ]
 
 @zedub.zed_cmd(pattern="كت(?: |$)(.*)")
-async def ahmed(ahmed): # Code Update by @zzzzl1l
+async def ahmed(ahmed): # Code Update
     zelzal = ahmed.pattern_match.group(1)
     zilzal = await ahmed.get_reply_message()
     zel_zal = random.choice(kettuet)
-    if not zilzal and not zelzal: # Code Update by @zzzzl1l
+    if not zilzal and not zelzal: # Code 
         return await edit_or_reply(ahmed, f"**⌔╎{zel_zal}**")
     user, custom = await get_user_from_event(ahmed)
-    if not user: # Code Update by @zzzzl1l
+    if not user: # Code 
         return
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
-    if custom: # Code Update by @zzzzl1l
+    if custom: # 
         zedth2 = custom
     me = await ahmed.client.get_me()
     my_first = me.first_name
