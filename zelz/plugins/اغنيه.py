@@ -1,9 +1,4 @@
-# Zed-Thon
-# Copyright (C) 2023 Zed-Thon . All Rights Reserved
-#
-# This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
+
 import requests
 import asyncio
 import os
@@ -25,9 +20,7 @@ from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
-#الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
-#ها خماط رمضان وتخمط hhhhhhh
+
 @zedub.zed_cmd(pattern="اغنيه(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
@@ -38,7 +31,7 @@ async def _(event):
     else:
         await event.edit("**╮ جـارِ البحث ؏ـن الاغنيـٓه... 🎧♥️╰**")
     chat = "@Abm_MusicDownloader_Bot"
-    async with borg.conversation(chat) as conv: # code by t.me/zzzzl1l
+    async with borg.conversation(chat) as conv: 
         try:
             await conv.send_message("/start")
             await conv.get_response()
@@ -83,9 +76,7 @@ async def _(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
-#الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
-#ها خماط رمضان وتخمط hhhhhhh
+
 @zedub.zed_cmd(pattern="تطبيق(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
@@ -100,7 +91,7 @@ async def _(event):
     else:
         return
     chat = "@apkdl_bot"
-    async with borg.conversation(chat) as conv: # code by t.me/zzzzl1l
+    async with borg.conversation(chat) as conv: 
         try:
             await conv.send_message("/start")
             await conv.get_response()
@@ -154,15 +145,12 @@ async def _(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
-#الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
-#ها خماط رمضان وتخمط hhhhhhh
 @zedub.zed_cmd(pattern="رابط(?:\\s|$)([\\s\\S]*)")
 async def linkapk(event):
     input_str = event.pattern_match.group(1)
     if input_str == "الحذف":
         return
-    chat = "@apkdl_bot" # code by t.me/zzzzl1l
+    chat = "@apkdl_bot" 
     reply_id_ = await reply_id(event)
     zed = await edit_or_reply(event, "**⎉╎جـارِ البحث عن روابـط التطبيق ...**")
     async with event.client.conversation(chat) as conv:
@@ -179,9 +167,7 @@ async def linkapk(event):
 
 
 
-#الملـف كتابـة زلـزال الهيبـه ⤶ @zzzzl1l خاص بسـورس ⤶ 𝙕𝙏𝙝𝙤𝙣
-#الملف متعوب عليه So تخمط وماتذكـر المصـدر == اهينـك
-#ها خماط رمضان وتخمط hhhhhhh
+
 @zedub.zed_cmd(pattern="فلم ([\\s\\S]*)")
 async def zed(event):
     if event.fwd_from:
