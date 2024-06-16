@@ -11,7 +11,7 @@ from telethon import Button, types
 from telethon.errors import QueryIdInvalidError
 from telethon.events import CallbackQuery, InlineQuery
 from youtubesearchpython import VideosSearch
-
+#ء
 from . import zedub
 from ..Config import Config
 from ..helpers.functions import rand_key
