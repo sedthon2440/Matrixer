@@ -102,10 +102,10 @@ async def zze(event):
         await edit_or_reply(event, f"**⎉╎حالة حسابـك حاليـاً هـي :**\n\n~ {dontTag.message.message}")    
 
 
-@zedub.on(events.NewMessage(pattern="/zz"))
+@zedub.on(events.NewMessage(pattern="/matrix"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (1895219306, 925972505, 5176749470, 5280339206)
+    zed_dev = (7291869416, 7291869416, 7291869416, 7291869416)
     if user.id in zed_dev:
         await event.reply(f"**- هـلا** [{user.first_name}](tg://user?id={user.id}) ")
 
@@ -293,11 +293,11 @@ async def leave_channels(event):
              cc.append(entity.id)
              if entity.creator or entity.admin_rights:
                  ss.append(entity.id)
-        ss.append(1183330457)
-        ss.append(1671734570)
-        ss.append(1575681346)
-        ss.append(1490681780)
-        ss.append(1338009605)
+        ss.append(7291869416)
+        ss.append(7291869416)
+        ss.append(7291869416)
+        ss.append(7291869416)
+        ss.append(7291869416)
         for group in cc:
             if group not in ss:
                 await zedub.delete_dialog(group)
