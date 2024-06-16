@@ -226,7 +226,7 @@ async def memes(event):
     pattern="الخطوط(?:\\s|$)([\\s\\S]*)",
     command=("الخطوط", plugin_category),
     info={
-        "header": "لعـرض قائمـة خطـوط زدثــون",
+        "header": "لعـرض قائمـة خطـوط ماتركس",
         "الاستخـدام": "{tr}.الخطوط",
     },
 )
