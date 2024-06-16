@@ -1,16 +1,4 @@
-# Zed-Thon - ZelZal
-# Copyright (C) 2023 ZThon . All Rights Reserved
-#
-# This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
-""" 
-Abuse Notifications for ZThon™ t.me/ZThon
-Write file by Zelzal t.me/zzzzl1l
-ها خماط بعدك تخمط مني .. ماتستحي ؟
-متى راح تصير مطور وانت مقضيها خمط تعب وحقوق الناس
-ههههههههههههههههههههههههههههههههههههههههههههههههههههههه
-"""
+
 
 import asyncio
 import base64
