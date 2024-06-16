@@ -1,6 +1,4 @@
-# تعريب وتحديث سورس زدثــون
-# ZThon UsetBot T.me/ZedThon
-# Devolper ZelZal T.me/zzzzl1l
+
 from telethon import functions
 from telethon.errors import ChatAdminRequiredError, UserAlreadyInvitedError
 from telethon.tl.types import Channel, Chat, User
