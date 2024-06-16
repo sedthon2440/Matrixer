@@ -13,7 +13,7 @@ from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id
 
 ZelzalPH_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗧𝗵𝗼𝗻 📲 - كـاشـف الارقـام العربيــة](t.me/ZThon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ 📲 - كـاشـف الارقـام العربيــة](t.me/veevvw) 𓆪\n\n"
     "**⪼ الامــر ↵**\n\n"
     "⪼ `.اكشف` + الـرقـم مـع مفتـاح الـدولة\n\n"
     "**⪼ الوصـف :**\n"
