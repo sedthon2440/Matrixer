@@ -34,7 +34,7 @@ LOGS = logging.getLogger(__name__)
 
 
 ZelzalWF_cmd = (
-    "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗧𝗵𝗼𝗻 - **اوامـر الـردود/الترحيب 🎡** 𓆪\n"
+    "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ - **اوامـر الـردود/الترحيب 🎡** 𓆪\n"
     "**⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆**\n\n"
     "**✾╎اوامـر ردود المجمـوعـات 🔊 :** \n"
     "**⎞𝟏⎝** `.رد`\n"
@@ -223,7 +223,7 @@ async def on_snip_list(event):
     filters = get_filters(event.chat_id)
     for filt in filters:
         if OUT_STR == "** ❈╎لاتوجـد ردود محفوظـه في هـذه الدردشـه ༗**":
-            OUT_STR = "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗧𝗵𝗼𝗻 - قائمـة الـردود 𓆪\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n"
+            OUT_STR = "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝙈𝙖𝙏𝙍𝙞𝙭 ⌁ - قائمـة الـردود 𓆪\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n"
         OUT_STR += "👉 `{}`\n".format(filt.keyword)
     await edit_or_reply(
         event,
