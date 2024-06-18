@@ -1,6 +1,6 @@
-FROM sedthon2440/Matrix:slim-buster
+FROM python:latest
 
-RUN git clone https://github.com/sedthon2440/Matrix.git /root/zelz
+RUN git clone https://github.com/sedthon2440/Matrixer.git /root/zelz
 
 WORKDIR /root/zelz
 
