@@ -8,7 +8,7 @@ from .core.session import zedub
 from .utils import mybot, saves, autoname
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
-
+from Youtubesearchpython
 LOGS = logging.getLogger("Zelzal")
 cmdhr = Config.COMMAND_HAND_LER
 
