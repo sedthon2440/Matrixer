@@ -12,7 +12,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 LOGS = logging.getLogger("Zelzal")
 cmdhr = Config.COMMAND_HAND_LER
 
-if gvarstatus("ALIVE_NAME") is None: 
+if gvarstatus("ALIVE_NAME") is None: #Code by T.me/zzzzl1l
     try:
         LOGS.info("⌭ بـدء إضافة الاسـم التلقـائـي ⌭")
         zedub.loop.run_until_complete(autoname())
@@ -23,7 +23,7 @@ if gvarstatus("ALIVE_NAME") is None:
 try:
     LOGS.info("⌭ بـدء تنزيـل ماتركـس ⌭")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل ماتركـس .. بـنجـاح ✓")
+    LOGS.info("✓ تـم تنزيـل زدثــون .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
